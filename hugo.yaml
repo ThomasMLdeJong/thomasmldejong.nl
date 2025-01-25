@@ -1,0 +1,47 @@
+title: ThomasMLdeJong
+baseURL: https://thomasmldejong.nl/
+
+markup:
+  # allow raw html
+  goldmark:
+    renderer:
+      unsafe: true
+
+  # enable hextra syntax highlight
+  highlight:
+    noClasses: false
+
+module:
+  imports:
+  - path: github.com/imfing/hextra
+  - path: github.com/hugomods/images
+
+menu:
+  main:
+    - name: Home
+      pageRef: /
+      weight: 1
+    - name: About
+      pageRef: /about
+      weight: 2
+    - name: LinkedIn
+      weight: 3
+      url: "https://www.linkedin.com/in/thomasmldejong/"
+      params:
+        icon: linkedin
+    - name: GitHub
+      weight: 4
+      url: "https://github.com/thomasmldejong"
+      params:
+        icon: github
+
+params:
+  navbar:
+    displayTitle: true
+    displayLogo: false
+  theme:
+    default: light
+    displayToggle: false
+  footer:
+    displayPoweredBy: false
+    displayCopyright: true
