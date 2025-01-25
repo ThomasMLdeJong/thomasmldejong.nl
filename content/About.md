@@ -1,7 +1,6 @@
 ---
-title: Fundamentals
+title: Over mij
 toc: false
-description: Kubernetes in its fundamentals
 width: full
 ---
 <img src="/images/profielfoto.png" alt="Thomas de Jong" style="width:200px; display:block; margin:0 auto;">
