@@ -8,7 +8,6 @@ categories:
   - Kubernetes
   - KCNA 
 draft: false
-
 ---
 In deze post leer je de basisprincipes van Kubernetes, inclusief containers, container orchestration en de Kubernetes-architectuur. We bespreken de verschillende soorten containers, hoe Kubernetes helpt bij het beheren van containers in complexe applicaties, en de rol van de control plane en worker nodes. We eindigen met een uitleg over de Container Runtime Interface (CRI) en de flexibiliteit die het biedt voor container runtimes.
 <!--more-->
