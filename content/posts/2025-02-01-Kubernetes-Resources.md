@@ -143,7 +143,7 @@ Er zijn een aantal namespaces die standaard worden aangemaakt door Kubernetes, n
 Het gebruik van namespaces is metname handig wanneer er een omgeving bestaat met veel gebruikers en/of projecten, of bij het scheiden van verschillende omgevingen zoals ontwikkeling, test en productie. 
 
 ## Imperative & Declarative
-In Kubernetes zijn er twee manieroen om resources te beheren: Imperative en Declarative
+In Kubernetes zijn er twee manieren om resources te beheren: Imperative en Declarative
 ### Imperative
 Deze methode geef je directe opdrachten via de commandline om de status van je cluster te wijzigen. Bijvoorbeeld, om een pod te creëren met een Nginx-image, gebruik je: 
 ```bash
