@@ -1,5 +1,5 @@
 ---
-title: Kubernetes Orchestration Security
+title: Kubernetes Security
 date: 2025-02-03T00:00:00+02:00
 type: post
 authors:
@@ -9,7 +9,7 @@ categories:
   - KCNA 
 draft: false
 ---
-
+Deze post behandeldt de beveiliging van Kubernetes, inclusief het beveiligen van nodes, toegang tot de API en authenticatie van gebruikers d.m.v. tokens of certificaten. Onderwerpen als RBAC, ABAC en TLS en het beheren van rechten met een ServiceAccount of NetworkPolicy wordt ook besproken.
 <!--more-->
 ## Basic Security
 Security van een Kuberneters cluster begint bij de Nodes waar het cluster op draait. Denk hierbij aan passwordless authentication, opzetten van een zo strak mogelijk afgestelde firewall en dergelijken. Als een node compromised raakt, is het cluster namelijk compromised, en dat wil je altijd voorkomen
@@ -227,3 +227,4 @@ spec:
     ports:
     - protocol: TCP 
       port: 80
+```
