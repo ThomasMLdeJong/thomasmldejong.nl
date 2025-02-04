@@ -24,17 +24,23 @@ menu:
     - name: About
       pageRef: /about
       weight: 2
-    - name: LinkedIn
+    - name: Posts
+      pageRef: /posts
       weight: 3
+    - name: Search
+      weight: 6
+      params:
+        type: search
+    - name: linkedin
+      weight: 8
       url: "https://www.linkedin.com/in/thomasmldejong/"
       params:
         icon: linkedin
     - name: GitHub
-      weight: 4
+      weight: 7
       url: "https://github.com/thomasmldejong"
       params:
         icon: github
-
 params:
   navbar:
     displayTitle: true
