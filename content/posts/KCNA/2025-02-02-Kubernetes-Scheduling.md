@@ -11,7 +11,6 @@ draft: false
 ---
 In deze post woren de verschillende manieren om pods in Kubernetes te schedulen en te beheren behandeld. Het gaat hier over handmatig pods toewijzen met nodeNames of BindingObject, en hoe je d.m.v. labels en selectors resources kunt organiseren. Daarnast worden taints en tolerations behandeld, die bepalen welke pods op welke nodes mogen draaien. Ten slotte wordt node affinity behandeld, waarna er kort gesproken wordt over de werking van DaemonSets.
 <!--more-->
-
 ## Manual Scheduling
 Elk manifest bevat onderwater de field `nodeName`, deze wordt vaak niet gedefinieerd omdat Kubernetes deze zelf invult. Kubernetes checkt welke nodes er zijn, en welke hiervan nog resources over hebbben om een extra pod te kunnen draaien. het veld `nodeName` kan ingesteld worden om zo handmatig pods te schedulen om opgezet te worden. De `nodeName` kan alleen bij het aanmaken worden ingesteld en kan daarna niet meer worden aangepast. 
 

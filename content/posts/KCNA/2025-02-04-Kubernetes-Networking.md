@@ -11,7 +11,6 @@ draft: false
 ---
 Deze post bespreekt de netwerkarchitectuur van Kubernetes en hoe communicatie binnen en buiten het cluster wordt geregeld. Er wordt aandacht besteed aan de standaardpoorten voor een cluster, de Container Network Interface (CNI), en de werking van DNS binnen Kubernetes.
 <!--more-->
-
 ## Cluster Networking
 De master node heeft de volgende poorten open:
 | Poort     | Functie                                                                               |  

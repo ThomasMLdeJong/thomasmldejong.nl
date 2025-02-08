@@ -9,7 +9,7 @@ categories:
   - KCNA 
 draft: false
 ---
-
+In deze post worden de volgende onderdelen behandeld: de layered architecture van Docker en het copy-on-write mechanisme voor image en container layers, het gebruik van Docker volumes voor persistente data, de integratie van externe opslag in Kubernetes via de Container Storage Interface, en het beheer van opslag in Kubernetes met persistent volumes en persistent volume claims.
 <!--more-->
 ## Docker
 Docker maakt gebruik van een layered architecture. Dit betekent dat elke instructiue in een Dockerfile een nieuwe laag is. Het voordeel hiervan is dat wanneer meerdere Docker-images beginnen met `FROM ubuntu`, deze laag één keer wordt opgeslagen in de directory `/var/lib/docker`. Hierdoor wordt de opslagruimte minder uitgeput en blijft de grootte van Docker beperkt.

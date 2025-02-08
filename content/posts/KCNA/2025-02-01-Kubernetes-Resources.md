@@ -12,7 +12,6 @@ draft: false
 
 Deze post biedt een overzicht van de kerncomponenten binnen Kubernetes, waaronder YAML, Pods, Replication Controller, ReplicaSets, Deployments, Strategiën en imperative & declarative resourcebeheer.
 <!--more-->
-
 ## YAML
 YAML is de template language die Kubernetes gebruikt om resources aan te maken. Hieronder staat een voorbeeld van een YAML-manifest voor het aanmaken van een Pod:
 ```yaml

@@ -9,6 +9,7 @@ categories:
   - KCNA 
 draft: false
 ---
+In deze post wordt het concept van autoscaling in Kubernetes uitgelicht, waarbij zowel het op- en afschalen van pods als het automatisch aanpassen van het aantal nodes aan bod komt. Eerst wordt toegelicht hoe horizontale scaling zorgt voor het dynamisch toevoegen of verwijderen van pods op basis van de load, terwijl verticale scaling inhoudt dat bestaande pods meer resources toegewezen krijgen. Vervolgens worden de drie autoscaling methoden besproken: de Horizontal Pod Autoscaler, de Vertical Pod Autoscaler en de Cluster Autoscaler, die samen zorgen voor een efficiënte en flexibele inzet van resources binnen een Kubernetes cluster.
 <!--more-->
 ## Autoscaling
 Het autoscalen van een pod houdt in dat wanneer er een verhoging is in het gebruik van een service, er een extra pod wordt aangemaakt om deze vraag te kunnen onderhouden. Op deze manier kan Kubernetes efficient met resources werken aangezien het minder pods gebruikt wanneer er weinig verkeer is, en meer pods wanneer er spikes in verkeer plaatsvinden. 

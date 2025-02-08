@@ -11,7 +11,6 @@ draft: false
 ---
 In deze post leer je de basisprincipes van Kubernetes, inclusief containers, container orchestration en de Kubernetes-architectuur. We bespreken de verschillende soorten containers, hoe Kubernetes helpt bij het beheren van containers in complexe applicaties, en de rol van de control plane en worker nodes. We eindigen met een uitleg over de Container Runtime Interface (CRI) en de flexibiliteit die het biedt voor container runtimes.
 <!--more-->
-
 ## Containers
 Containers zijn machines die alles bevatten om een applicatie zoals nginx te draaien. Ze omvatten de code, runtime, libraries en systeemafhankelijkheden die nodig zijn om de applicatie uit te voeren. Containers worden vaak gebruikt om een applicatie consistent te laten draaien in verschillende omgevingen, zoals development, test en productie.
 Er zijn verschillende soorten containers, elk met hun eigen focus en gebruiksscenario:
