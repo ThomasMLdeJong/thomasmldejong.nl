@@ -8,7 +8,6 @@ categories:
   - Kubernetes
   - KCSA 
 draft: false
-
 ---
 Deze post behandelt de securitymaatregelen van AWS, Azure en GCP. We kijken naar hoe deze cloudproviders hun infrastructuur beveiligen met oplossingen zoals SIEM, WAF en containerbeveiliging. Daarnaast bespreken we Kubernetes security en best practices voor veilige container images. Zo krijg je inzicht in de verschillende aanpakken en hoe je cloud security optimaal kunt toepassen.
 <!--more-->
