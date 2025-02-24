@@ -76,5 +76,3 @@ Segmentatie binnen het Kubernetes kan worden gerealiseerd d.m.v. namespaces. Doo
 Isolatie in Kubernetes wordt voor een stuk al gedaan door namespaces toe te passen, maar om dit helemaal goed in te richten kan er bovenop nog gebruik gemaakt worden van network policies. Deze zorgen ervoor dat een pod alleen nog mag communiceren met pods die worden gedefinieerd in de network policy.
 
 Het wisselen tussen namespaces kan met het volgende commando: `kubectl config set-context $(kubectl config current-context) --namespace=<Namespace>`
-
-
